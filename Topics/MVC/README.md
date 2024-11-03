@@ -8,7 +8,7 @@ MVC :
 - Controller (كونترولر) هذا ينسق بين الاثنين الي فوك العرض والموديل يتحكم بيهم ثنينهم ياخذ البيانات من المستخدم ويوصلها للمودل
 
 
-![مثال توضيحي](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ozzu.com%2Fquestions%2F610473%2Fwhat-is-mvc-in-php-and-how-does-it-work&psig=AOvVaw3o1gUStlH2ctvBZFi4mHFz&ust=1730720342563000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjq4_WJwIkDFQAAAAAdAAAAABAE)
+![مثال توضيحي](https://github.com/MustafaPG/My-Projects/blob/main/Topics/MVC/pic/mvc.png)
 
 
 1- العرض ينطي للكنترولر بيانات اذا المستخدم تفاعل بل شاشة
