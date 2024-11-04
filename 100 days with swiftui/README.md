@@ -18,7 +18,7 @@ let fahrenheit = (celsiusTemperature * 9 / 5) + 32
 
 print("Temperature in Celsius: \(celsius)°C")
 print("Temperature in Fahrenheit: \(fahrenheit)°F")
-
+```
 ## Day 3
 No CheckPoint!
 
@@ -39,4 +39,4 @@ let names : [String] = ["ali" , "mohammed" , "omar" , "Amer" , "ali"]
 print("The namse = " , names.count)
 let filterNames = Set(names)
 print("The unique Names = " , filterNames)
-
+```
