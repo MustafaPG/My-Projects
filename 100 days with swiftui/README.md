@@ -68,5 +68,29 @@ for i in 1...100{
         print(i)
     }
 }
+```
 
+## Day 7
+
+### Question
+# do two strings contain the same letters, regardless of their order? This function should accept two string parameters, and return true if their letters are the same so, “abc” and “cab” should return true because they both contain one “a”, one “b”, and one “c”.
+
+
+### My Solution
+
+```swift
+func FindTheSame(a: String , b: String) -> Bool{
+
+    var first = a.sorted()
+    var secund = b.sorted()
+
+    if first == secund{
+        return true
+    }else{
+        return false
+    }
+    
+}
+
+print(FindTheSame(a: "Ahmed", b: "Ahedm"))
 ```

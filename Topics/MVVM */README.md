@@ -13,5 +13,3 @@
 - **اسرع** بهاي الحاله يكدر المطورين يشتغلون على المودل بين ما المطورين الباقين يشتغلون على الفيو والفيومودل
 
 
-```markdown
-[اضغط هنا حتى تشوف مثال](https://github.com/YourUsername/YourRepository/blob/main/AnotherFile.md)
