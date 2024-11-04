@@ -40,3 +40,33 @@ print("The namse = " , names.count)
 let filterNames = Set(names)
 print("The unique Names = " , filterNames)
 ```
+
+## Day 5
+No CheckPoint!
+
+## Day 6
+
+### Question
+1. If it’s a multiple of 3, print “Fizz”
+2. If it’s a multiple of 5, print “Buzz”
+3. If it’s a multiple of 3 and 5, print “FizzBuzz”
+4. Otherwise, just print the number.
+
+
+### My Solution
+
+```swift
+for i in 1...100{
+    if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
+        print(i , "FizzBuzz")
+    }
+    else if i.isMultiple(of: 3){
+        print(i , "Fizz")
+    }else if i.isMultiple(of: 5) {
+        print(i , "Buzz")
+    }else{
+        print(i)
+    }
+}
+
+```
