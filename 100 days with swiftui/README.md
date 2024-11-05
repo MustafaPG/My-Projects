@@ -110,6 +110,35 @@ print(FindTheSame(a: "Ahmed", b: "Ahedm"))
 ### My Solution
 
 ```swift
-...
+enum error : Error {
+    case LessThanOne
+    case MoreThanThosnd
+    case NoSQRT
+}
+
+func FindSQRT(num: Int) throws -> Int{
+    if num <= 1 {
+        throw error.LessThanOne
+    }else if num >= 10000 {
+        throw error.MoreThanThosnd
+    }else{
+        for i in 1..<num{
+            if i * i == num {
+                return i
+            }
+        }
+    }
+    throw error.NoSQRT
+}
+do{
+    try print(FindSQRT(num: 900))
+    
+}catch error.NoSQRT{
+    print("No Root")
+}catch error.LessThanOne{
+    print("out of bounds")
+}catch error.MoreThanThosnd{
+    print("out of bounds")
+}
 ```
 
