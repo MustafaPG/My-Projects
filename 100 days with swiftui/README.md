@@ -73,7 +73,7 @@ for i in 1...100{
 ## Day 7
 
 ### Question
-# do two strings contain the same letters, regardless of their order? This function should accept two string parameters, and return true if their letters are the same so, “abc” and “cab” should return true because they both contain one “a”, one “b”, and one “c”.
+1. do two strings contain the same letters, regardless of their order? This function should accept two string parameters, and return true if their letters are the same so, “abc” and “cab” should return true because they both contain one “a”, one “b”, and one “c”.
 
 
 ### My Solution
@@ -94,3 +94,22 @@ func FindTheSame(a: String , b: String) -> Bool{
 
 print(FindTheSame(a: "Ahmed", b: "Ahedm"))
 ```
+
+## Day 7
+
+### Question
+1. The challenge is this: write a function that accepts an integer from 1 through 10,000, and returns the integer square root of that number. That sounds easy, but there are some catches:
+
+2. You can’t use Swift’s built-in sqrt() function or similar – you need to find the square root yourself.
+3. If the number is less than 1 or greater than 10,000 you should throw an “out of bounds” error.
+4. You should only consider integer square roots – don’t worry about the square root of 3 being 1.732, for example.
+5. If you can’t find the square root, throw a “no root” error.
+
+
+
+### My Solution
+
+```swift
+...
+```
+
