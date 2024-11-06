@@ -95,7 +95,7 @@ func FindTheSame(a: String , b: String) -> Bool{
 print(FindTheSame(a: "Ahmed", b: "Ahedm"))
 ```
 
-## Day 7
+## Day 8
 
 ### Question
 1. The challenge is this: write a function that accepts an integer from 1 through 10,000, and returns the integer square root of that number. That sounds easy, but there are some catches:
@@ -142,3 +142,37 @@ do{
 }
 ```
 
+## Day 9
+
+### Question
+1. Your input is this:
+let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+Your job is to:
+2. Filter out any numbers that are even
+3. Sort the array in ascending order
+4. Map them to strings in the format "7 is a lucky number"
+5. Print the resulting array, one item per line
+
+
+### My Solution
+
+```swift
+let luckyNumbers = [7, 4, 38, 21, 16, 15, 12, 33, 31, 49]
+
+let Even = luckyNumbers.filter{$0 % 2 == 0}
+
+let NotEven = luckyNumbers.filter{$0 % 2 == 1}
+
+let EvenSorted = Even.sorted()
+
+let LuckyNumbers = NotEven.map{ "\($0)  is a Lucky number" }
+
+let PrintItemsOnePerLine = {( Numbers :[String]) in
+    for i in Numbers{
+        print(i)
+    }
+
+}
+
+PrintItemsOnePerLine(LuckyNumbers)
+```
